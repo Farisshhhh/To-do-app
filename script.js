@@ -23,7 +23,7 @@ function addTask() {
   taskInput.value = "";
   renderTasks();
 }
-s
+
 function renderTasks() {
   taskList.innerHTML = "";
   const tasks = getTasks();
